@@ -1,0 +1,9 @@
+{
+  "repository": "jsx-babel-parser-fragment",
+  "silent": false,
+  "commits": "conventional-commits",
+  "tag": true,
+  "version": true,
+  "push": true,
+  "publish": true
+}

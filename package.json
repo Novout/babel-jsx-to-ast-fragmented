@@ -1,0 +1,43 @@
+{
+  "name": "babel-jsx-to-ast-fragmented",
+  "author": "Novout",
+  "description": "@babel/parser wrapper for simple JSX tree.",
+  "license": "MIT",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "generi": "generi log",
+    "prepublish": "pnpm run build"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "babel",
+    "parser",
+    "typescript",
+    "javascript",
+    "jsx",
+    "jsx-ast"
+  ],
+  "dependencies": {
+    "@babel/parser": "^7.20.7"
+  },
+  "devDependencies": {
+    "generi": "^0.5.2",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4",
+    "vitest": "^0.27.1"
+  }
+}
