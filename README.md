@@ -1,8 +1,8 @@
 # Babel JSX to AST Fragmented
 
-`npm i babel-jsx-to-ast-fragmented`
+**@babel/parser** wrapper for simple JSX tree.
 
-`@babel/parser` wrapper for simple JSX tree.
+`npm i babel-jsx-to-ast-fragmented`
 
 ```jsx
 export const Foo = (props) => {
