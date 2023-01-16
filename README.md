@@ -1,5 +1,7 @@
 # Babel JSX to AST Fragmented
 
+`npm i babel-jsx-to-ast-fragmented`
+
 `@babel/parser` wrapper for simple JSX tree.
 
 ```jsx
