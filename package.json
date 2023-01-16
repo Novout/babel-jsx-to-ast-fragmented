@@ -7,7 +7,9 @@
   "scripts": {
     "build": "tsup",
     "test": "vitest",
-    "generi": "generi log",
+    "patch": "generi log patch",
+    "minor": "generi log minor",
+    "major": "generi log major",
     "prepublish": "pnpm run build"
   },
   "main": "dist/index.js",
