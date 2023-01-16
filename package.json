@@ -3,7 +3,7 @@
   "author": "Novout",
   "description": "@babel/parser wrapper for simple JSX tree.",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "build": "tsup",
     "test": "vitest",
